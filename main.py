@@ -21,7 +21,6 @@ links = soup.find_all('a', attrs={"data-test":"property-card-link"})
 unique_links = set()
 
 link_list = []
-
 price_list = []
 
 for link_tag in links:
